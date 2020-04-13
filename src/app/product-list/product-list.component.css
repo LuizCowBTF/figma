@@ -1,0 +1,64 @@
+a {
+  color: #616161;
+}
+
+h4 {
+  color: #2EC4B6;
+}
+
+button {
+  background-color: transparent !important;
+}
+
+#list {
+  margin-left: 30px;
+}
+
+#products {
+  margin-left: 150px;
+}
+
+.tituloProd {
+  margin: 10px 0px 0px 0px;
+}
+
+.orange {
+  margin: 35px 0px 0px -112px;
+}
+
+.imagem {
+  padding: 10px 10px 15px 10px;
+}
+
+.nome {
+  text-align: center;
+  margin: 1px 0px -3px 0px;
+}
+
+.cotacao {
+  text-align: center;
+  margin: 0px 0px -3px 0px;
+}
+
+.promocao {
+  text-align: center;
+  text-decoration: line-through;
+  margin: 0px 0px -3px 0px;
+}
+
+.preco {
+  text-align: center;
+  color: #2EC4B6;
+  font-weight: bolder;
+  margin: 0px 0px -5px 0px;
+}
+
+.descricao {
+  text-align: center;
+  margin: -10px 0px 0px 0px;
+}
+
+.comprar {
+  text-align: center;
+  margin: -5px 0px 0px 90px;
+}

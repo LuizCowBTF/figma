@@ -1,0 +1,60 @@
+input {
+  font-size: 14px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+i {
+  color: #000000;
+}
+
+.navbar {
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+.navbar-brand {
+  margin: 0px 40px 0px 120px;
+}
+
+.nav-item {
+  margin: 0px 2px 0px 0px;
+}
+
+.nav-link {
+  color: #000000;
+  margin: 0px 2px 0px 2px;
+}
+
+.form-control {
+  background-color: transparent !important;
+}
+
+.input-group {
+  width: 450px;
+  margin: 0px 10px 0px 20px;
+  background-color: none;
+}
+
+#btnSearch {
+  margin: 0px 0px 0px -40px;
+}
+
+#btnUser {
+  margin: 0px 10px 0px 30px;
+}
+
+#btnCart {
+  margin: 0px 20px 0px 20px;
+}
+
+#btnBadge {
+  margin: 0px 20px 0px 20px;
+}
+
+.usuario {
+  width: 300px;
+  padding: 0px 0px 0px 0px;
+}

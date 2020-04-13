@@ -1,0 +1,60 @@
+<div class="row">
+  <div class="col-12">
+    <app-carrousel></app-carrousel>
+  </div>
+</div>
+<div class="row">
+  <div class="container" id="products">
+    <div class="tituloProd">
+      <h3>Produtos</h3>
+    </div>
+    <div class="orange">
+      <img src="../../assets/imagens/orangeBar.png">
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="list" *ngFor="let product of products; index as productId">
+        <div class="imagem">
+          <img src="../../assets/imagens/productView.png">
+        </div>
+        <div class="nome">
+          <p>
+            <a [title]="product.name + ' details'" [routerLink]="['/products', productId]">
+              {{ product.name }}
+            </a>
+          </p>
+        </div>
+        <div class="cotacao">
+          <star-rating value="1" totalstars="5" checkedcolor="orangered" uncheckedcolor="black" size="24px" readonly="false" (rate)="onRate($event)"></star-rating>
+        </div>
+        <div class="promocao">
+          <p>
+            <a [title]="product.promo + ' details'" [routerLink]="['/products', productId]">
+              {{ product.promo }}
+            </a>
+          </p>
+        </div>
+        <div class="preco">
+          <h4>
+            <a style="color:#2EC4B6;" [title]="product.price + ' details'" [routerLink]="['/products', productId]">
+              {{ product.price }}
+            </a>
+          </h4>
+        </div>
+        <div class="descricao">
+          <p>
+            <a [title]="product.description + ' details'" [routerLink]="['/products', productId]">
+              {{ product.description }}
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="comprar">
+        <button (click)="addToCart(product)">
+          <img src="../../assets/imagens/btnComprar.png">
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

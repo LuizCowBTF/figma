@@ -1,0 +1,24 @@
+.titulo {
+  margin-left: 200px;
+  width: 100%;
+  height: auto;
+}
+
+.cart-item {
+  margin: 8px 0px 8px 220px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  min-width: 500px;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 32px;
+  border-radius: 2px;
+  background-color: #EEEEEE;
+}
+
+.postal {
+  margin: 8px 0px 8px 220px;
+}

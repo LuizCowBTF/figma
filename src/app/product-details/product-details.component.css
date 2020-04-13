@@ -1,0 +1,43 @@
+h2 {
+  color: #000000;
+  font-weight: bolder;
+}
+
+h4 {
+  color: #000000;
+}
+
+p {
+  color: #000000;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+button {
+  background-color: transparent !important;
+}
+
+.container {
+  margin-left: 200px;
+}
+
+.produto {
+  border: 1px solid #616161;
+  padding: 20px;
+}
+
+.imgProd {
+  border: 1px solid #616161;
+  width: 400px;
+  height: auto;
+}
+
+.comprar {
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.comprarTop {
+  text-align: left;
+  margin: 0px 0px 0px 90px;
+}

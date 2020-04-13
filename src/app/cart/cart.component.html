@@ -1,0 +1,14 @@
+<div class="titulo">
+  <h3>Os produtos em seu carrinho neste momento são:</h3>
+</div>
+
+<div class="cart-item" *ngFor="let item of items">
+  <span>{{ item.name }}</span>
+  <span>{{ item.price }}</span>
+</div>
+
+<div class="postal">
+  <p>
+    <a routerLink="/shipping">Preços de fretes</a>
+  </p>
+</div>

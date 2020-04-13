@@ -1,0 +1,56 @@
+h4 {
+  color: #FFFFFF;
+  margin-bottom: -10px;
+}
+
+h5 {
+  color: #FFFFFF;
+  margin: 0px 0px 5px 0px;
+}
+
+p {
+  color: #FFFFFF;
+  margin: 0px -5px 0px 0px;
+}
+
+.btn {
+  width: 220px;
+  height: 50px;
+  padding: 0px 0px 2px 0px;
+  color: #FFFFFF;
+  font-size: 12px;
+  text-align: right;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #011627;
+}
+
+.nav-item0 {
+  width: 200px;
+  margin: 0px 30px 0px -15px;
+}
+
+.nav-item1 {
+  width: 200px;
+  margin: 0px 0px 0px 20px;
+}
+
+.nav-item2 {
+  width: 150px;
+}
+
+.nav-item3 {
+  width: 250px;
+  margin: 20px 0px 0px 5px;
+}
+
+.nav-item4 {
+  width: 100px;
+}
+
+.nav-item5 {
+  width: 100px;
+  margin: 80px 0px 0px 0px;
+}

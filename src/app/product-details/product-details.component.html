@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="produto">
+    <div *ngIf="product">
+      <h2>{{ product.name }}</h2>
+      <img src="../../assets/imagens/productDetail.png">
+      <p>{{ product.promo }}</p>
+      <p>{{ product.price }}</p>
+      <p>{{ product.description }}</p>
+      <div class="comprar">
+        <button (click)="addToCart(product)">
+          <img src="../../assets/imagens/btnComprar.png">
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="comprarTop">
+    <h4>Compre agora! Aproveite o desconto.</h4>
+    <button (click)="addToCart(product)">
+      <img src="../../assets/imagens/btnComprar.png">
+    </button>
+  </div>
+</div>
